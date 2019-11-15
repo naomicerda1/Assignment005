@@ -1,0 +1,75 @@
+h1 {
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+.opening, .opening-1, .catch {
+    font-family: 'Dancing Script', cursive;
+}
+
+img {
+    
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    margin: 65px;
+}
+
+.row {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.opening {
+    text-align: center;
+    font-size: 45px;
+}
+
+#redjuice, #fig1 {
+    float: inline-start;
+    margin-left: 58em;
+    font-size: x-small;
+}
+
+.opening-1 {
+    position: absolute;
+    float: inline-start;
+    margin-left: 21em;
+    margin-top: 0;
+    width: 25%;
+    font-size: 25px;
+}
+
+body {
+    color: rgb(17, 112, 88);
+    background-color: rgb(250, 197, 60);
+}
+
+.moncheri {
+    position: relative;
+}
+
+.catch {
+    font-size: 50px;
+    text-align: center;
+}
+
+header {
+
+}
+
+#drink {
+    
+}
+
+#closing {
+
+}
+
+#copyright {
+    text-align: center;
+}
