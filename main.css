@@ -2,46 +2,55 @@ h1 {
     font-family: 'Ma Shan Zheng', cursive;
     font-size: 60px;
     text-align: center;
+    
 }
 
-.opening, .opening-1, .catch {
+.quest, .opening, .catch, .info {
     font-family: 'Dancing Script', cursive;
 }
 
 img {
-    
+    border: 10px ridge rgb(17, 112, 88);
 }
 
-.column {
-    float: left;
-    padding: 10px;
-    margin: 65px;
+.title {
+    padding-top: 15px;
+} 
+
+.fruit {
+    float: right;
+    padding-right: 250px;
+    padding-top: 100px;
 }
 
-.row {
-    content: "";
-    clear: both;
-    display: table;
+.row { 
+    display: table-row-group;
 }
 
-.opening {
-    text-align: center;
-    font-size: 45px;
+.quest {
+    float: right;
+    font-size: 35px;
+    width: 60%;
 }
 
 #redjuice, #fig1 {
     float: inline-start;
-    margin-left: 58em;
-    font-size: x-small;
+    width: 30%;
+    margin-left: 35em;
+    font-size: small;
 }
 
-.opening-1 {
-    position: absolute;
+.info {
+    font-size: 30px;
+    padding-left: 1em;
+}
+
+.opening {
     float: inline-start;
-    margin-left: 21em;
-    margin-top: 0;
-    width: 25%;
-    font-size: 25px;
+    margin-left: 18em;
+    margin-top: 2px;
+    width: 45%;
+    font-size: 28px;
 }
 
 body {
@@ -49,25 +58,25 @@ body {
     background-color: rgb(250, 197, 60);
 }
 
-.moncheri {
-    position: relative;
-}
-
 .catch {
     font-size: 50px;
     text-align: center;
 }
 
-header {
+.title {
+    float: left;
+    padding-left: 80px;
+    width: 50%;
+    height: 150px;
+}
 
+
+header {
+    border: 15px double rgb(17, 112, 88);
 }
 
 #drink {
-    
-}
-
-#closing {
-
+    border: 15px double rgb(17, 112, 88);
 }
 
 #copyright {
